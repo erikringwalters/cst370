@@ -19,10 +19,10 @@ void main()
     cin >> filename;
     if(filename == "")
     {
-        cout << "Invalid file name";
+        cout << "Invalid file name. [Exiting Program]\n";
         return;
     }
-    
+    cout << infile.name();
     return;
 }
 
